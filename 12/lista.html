@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="lista.css">
+</head>
+<body>
+    <h1>Lista de tarefas</h1>
+
+<form name="form_main">
+  <label for="task">Tarefa: </label> 
+  <input type="text" name="task" id="task" /> <br />
+  <button type="button" onclick="add()">Add</button>
+</form>
+
+<fieldset>
+  <legend>Tarefas:</legend>
+  <ul>
+    <li>Limpar casa</li>
+    <li>Outras</li>
+  </ul>
+</fieldset>
+<script src="lista.js"></script>
+</body>
+</html>
